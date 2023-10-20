@@ -1,0 +1,63 @@
+/* Styles pour l'élément body */
+body {
+  background: #000000 url(/assets/image/362134.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Hauteur minimale de la fenêtre visible */
+}
+
+/* Styles pour le container principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer le contenu horizontalement */
+}
+
+/* Styles pour le container des cartes */
+.cards-container {
+  display: flex;
+  justify-content: center; /* Centrer le contenu des cartes horizontalement */
+}
+
+/* Styles pour chaque carte individuelle */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrer le contenu des cartes verticalement */
+  align-items: center; /* Centrer le contenu horizontalement */
+  width: 18rem;
+  margin: 0 10px; /* Ajout d'une marge à droite et à gauche de la carte */
+  margin-bottom: 20px; /* Marge en bas de chaque carte */
+  margin-top: 50px; /* Ajout d'une marge en haut de la carte */
+}
+
+/* Styles pour les liens */
+a {
+  text-decoration: none; 
+  font-size: 22px;
+  color: rgb(246, 238, 238); 
+}
+
+
+.breadcrumb {
+  display: flex;
+  justify-content: space-around; 
+  margin-top: auto; 
+}
+
+/* Styles pour le pied de page */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles spécifiques pour les écrans plus petits, par exemple, les smartphones */
+  .card {
+    width: 100%; /* Ajustez la largeur des cartes pour qu'elles s'adaptent à l'écran */
+  }
+}

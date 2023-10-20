@@ -1,0 +1,76 @@
+body {
+  background: #000000 url(/assets/image/362134.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+p {
+  text-align: center;
+  color: blanchedalmond;
+}
+
+button,
+input {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: #000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styles pour les liens */
+a {
+  text-decoration: none; 
+  font-size: 22px;
+  color: rgb(7, 249, 63); 
+}
+
+
+/* 
+.hidden {
+  display: none;
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  text-align: center;
+}
+
+#popupContent {
+  text-align: center;
+}
+
+#closePopup {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
